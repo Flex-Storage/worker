@@ -1,6 +1,7 @@
 [[headers]]
   for = "/*"
 [headers.values]
-  Cross-Origin-Opener-Policy = "same-origin"
-  Cross-Origin-Embedder-Policy = "require-corp"
+  Cross-Origin-Opener-Policy = "*"
+  Cross-Origin-Embedder-Policy = "*"
+  Access-Control-Allow-Origin = "*"
   Referrer-Policy = "no-referrer-when-downgrade"
